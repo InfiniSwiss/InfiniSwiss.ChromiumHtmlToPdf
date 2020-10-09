@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>netstandard2.0</TargetFramework>
+	<TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+	<LangVersion>8</LangVersion>
+	<Authors>InfiniSwiss</Authors>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<Copyright>InfiniSwiss</Copyright>
+	<PackageProjectUrl>https://github.com/InfiniSwiss/InfiniSwiss.ChromiumHtmlToPdf</PackageProjectUrl>
+	<PackageIcon>logo.png</PackageIcon>
+	<RepositoryUrl>https://github.com/InfiniSwiss/InfiniSwiss.ChromiumHtmlToPdf</RepositoryUrl>
+	<RepositoryType>git</RepositoryType>
+	<PackageTags>Infiniswiss, HTML to PDF, HTML, Chromium</PackageTags>
+	<Description>Convert HTML pages to PDF using a Chromium browser for WYSIWYG functionality.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<None Include="..\..\logo.png">
+	  <Pack>True</Pack>
+	  <PackagePath></PackagePath>
+	</None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="InfiniSwiss.CdpSharp" Version="1.0.0" />
+  </ItemGroup>
+</Project>
