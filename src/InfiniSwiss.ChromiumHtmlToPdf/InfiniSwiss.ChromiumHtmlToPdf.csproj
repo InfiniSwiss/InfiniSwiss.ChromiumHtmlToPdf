@@ -13,6 +13,7 @@
 	<RepositoryType>git</RepositoryType>
 	<PackageTags>Infiniswiss, HTML to PDF, HTML, Chromium</PackageTags>
 	<Description>Convert HTML pages to PDF using a Chromium browser for WYSIWYG functionality.</Description>
+	<Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="InfiniSwiss.CdpSharp" Version="1.0.0" />
+    <PackageReference Include="InfiniSwiss.CdpSharp" Version="1.0.1" />
   </ItemGroup>
 </Project>
