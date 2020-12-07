@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
 	<TargetFramework>netstandard2.0</TargetFramework>
@@ -13,8 +13,8 @@
 	<RepositoryType>git</RepositoryType>
 	<PackageTags>Infiniswiss, HTML to PDF, HTML, Chromium</PackageTags>
 	<Description>Convert HTML pages to PDF using a Chromium browser for WYSIWYG functionality.</Description>
-	<Version>1.0.2</Version>
-	<AssemblyVersion>1.0.2.0</AssemblyVersion>
+	<Version>1.0.4</Version>
+	<AssemblyVersion>1.0.4.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,6 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="InfiniSwiss.CdpSharp" Version="1.0.3" />
+    <PackageReference Include="InfiniSwiss.CdpSharp" Version="1.0.4" />
   </ItemGroup>
 </Project>
